@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+* {
+  list-style-type: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.names-of-main {
+  width: Fixed (582px);
+  height: Hug (64px);
+  top: 86px;
+  left: 777px;
+}
+
+.buttons-section {
+  padding-top: 25px !important;
+}
+@media only screen and (max-width: 767px) {
+  .container {
+    justify-content: center;
+    align-items: center;
+  }
+  .images-page-page {
+    max-width: 100%;
+    height: auto;
+  }
+  .main-image {
+    height: 100%;
+    margin: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .images-page-page {
+    max-width: 100%;
+    height: auto;
+    min-width: 700px;
+  }
+  .details-page {
+    max-width: 100%;
+    height: auto;
+  }
+  .main-image {
+    max-width: 100%;
+    height: auto;
+    margin: 20px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .images-page-page {
+    width: 587px;
+  }
+  .details-page {
+    width: 510px;
+  }
+
+  .main-image {
+    width: 500px;
+    height: 691px;
+    top: 80px;
+    left: 80px;
+    border-radius: 10px;
+  }
+}
+.marmeto-brand-name {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #b9bbbf;
+}
+.heading-name {
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.product-price-details {
+  display: flex;
+}
+.product-price {
+  font-family: Inter;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #3a4980;
+  width: 183px;
+  height: 41px;
+}
+
+.product-discount {
+  font-family: Inter;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ff000080;
+}
+#actualPrice {
+  font-family: Inter;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: grey;
+  text-decoration: line-through;
+}
+
+.choose-a-clor {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #b9bbbf;
+  width: Hug (292px);
+  height: Hug (96px);
+  top: 299px;
+  left: 778px;
+  gap: 13px;
+}
+
+.sizes-list {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #b9bbbf;
+  width: Hug (497px);
+  height: Hug (64px);
+  top: 445px;
+  left: 778px;
+  gap: 14px;
+  padding-bottom: 20px;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+.quantity-btn {
+  width: 169px;
+  height: 59px;
+  top: 549px;
+  left: 778px;
+  border-radius: 29.5px;
+  background: #f3f3f3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.minus {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+.plus {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+.add-cart-btn {
+  width: 309px;
+  height: 59px;
+  top: 549px;
+  left: 966px;
+  border-radius: 29.5px;
+  background-color: #3a4980;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+
+#description {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #a3a3a3;
+}
+
+.tab-image {
+  width: 115px;
+  height: 115px;
+  border-radius: 6px;
+  margin: 3px;
+  opacity: 0.5;
+}
+
+.active-tab {
+  width: 115px;
+  height: 115px;
+  border-radius: 6px;
+  margin: 3px;
+  border: 2px solid #2c3079;
+}
+
+.inactive-radio-btn {
+  background-color: #f3f3f3;
+  padding: 6px;
+  margin: 5px;
+}
+
+.buttons-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 497px;
+  height: 59px;
+  top: 549px;
+  left: 778px;
+  border-radius: 29.5px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.separator {
+  width: 582px;
+  top: 167px;
+  left: 778px;
+  background: #e4e4e4;
+  border: 1px solid #e4e4e4;
+}
+
+.message {
+  width: Fixed (495px);
+  height: Hug (31px);
+  padding: 7px, 1px, 7px, 10px;
+  border-radius: 8px;
+  gap: 8px;
+  background: #e7f8b7;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000;
+}
