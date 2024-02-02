@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/ac42c3b1f7.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
+    <title>Coding Assesment L2 boilerplate</title>
+    <style>
+      .color-option {
+          display: inline-block;
+          width: 64px;
+          height: 64px;
+          margin-right: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Your code goes here -->
+    <div class="container">
+      <div class="images-page">
+        <div class="main-image-page">
+          <img
+            src="https://m.media-amazon.com/images/I/71PxIoY+u5L._AC_UY1000_.jpg"
+            id="mainImage"
+            class="main-image"
+          />
+        </div>
+        <div>
+          <img
+            src="https://m.media-amazon.com/images/I/61sD00dND8L._AC_UY1000_.jpg"
+            id="newTab1"
+            class="tab-image"
+          />
+          <img
+            src="https://m.media-amazon.com/images/I/71Mc+KynMML._AC_SX679_.jpg"
+            id="newTab2"
+            class="tab-image"
+          />
+          <img
+            src="https://m.media-amazon.com/images/I/71FK+EoQTZL._AC_SX679_.jpg"
+            id="newTab3"
+            class="tab-image"
+          />
+          <img
+            src="https://m.media-amazon.com/images/I/71OOyh4aehL._AC_SX679_.jpg"
+            id="newTab4"
+            class="tab-image"
+          />
+        </div>
+      </div>
+      <div class="details-page">
+        <div class="names-of-main">
+          <p class="marmeto-brand-name" id="marmetoName"></p>
+          <h1 class="heading-name" id="headingName"></h1>
+        </div>
+        <hr class="separator" />
+        <div class="product-price-details">
+          <div>
+            <p class="product-price" id="productPrice"></p>
+            <p id="actualPrice"></p>
+          </div>
+          <div>
+            <p class="product-discount">35% Off</p>
+          </div>
+        </div>
+        <hr class="separator" />
+        <div class="choose-a-color-container">
+          <h1 class="choose-a-clor">Choose a color</h1>
+          <ul id="optionsList"></ul>
+        </div>
+        <hr class="separator" />
+        <div class="sizes-list-container">
+          <h1 class="sizes-list">Choose a Size</h1>
+          <ul id="sizesList"></ul>
+        </div>
+        <hr class="separator" />
+        <div class="buttons-section">
+          <div class="quantity-btn">
+            <button class="minus" id="decreaseBtn">-</button>
+            <button class="quantity" id="quantity">1</button>
+            <button class="plus" id="inCreaseBtn">+</button>
+          </div>
+          <div class="add-cart-btn">
+            <button class="add-cart-btn" id="addCartItem">
+              <i class="fas fa-shopping-bag"></i> Add To Cart
+            </button>
+          </div>
+        </div>
+        <p class="message" id="onAddCartMsg"></p>
+        <hr class="separator" />
+        <div class="description-section">
+          <p id="description"></p>
+        </div>
+      </div>
+    </div>
+    <!-- Happy coding 😊 -->
+    <script src="./script.js"></script>
+  </body>
+</html>
